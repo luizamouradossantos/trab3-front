@@ -1,6 +1,6 @@
 
 :root {
-    --cor-principal: #C97B9F;
+    --cor-principal: #cf5e92;
     --cor-secundaria: #A783A8;
     --cor-fundo: #FFF8FB;
     --cor-texto: #4F3B4D;
@@ -12,7 +12,6 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
 }
 
 img {
@@ -30,7 +29,7 @@ h2 {
 }
 
 p {
-    text-align: justify;
+    text-align: left;
     margin: 0 15px;
     text-indent: 50px;
 }
@@ -48,7 +47,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .logo {
@@ -317,6 +316,11 @@ footer p {
 
     header {
         font-size: 22px;
+        align-items: center;
+    }
+
+    header h1 {
+        align-self: center;
     }
 
     .logo {
@@ -372,17 +376,15 @@ footer p {
     }
 
 }
-   
-    h2 {
-        font-size: 28px;
-    }
-
-    p {
-        text-indent: 25px;
-    }
 
 @media (max-width: 480px) {
 
+    header {
+        align-items: center;
+    }
+    header h1 {
+        align-self: center;
+    }
     .banner h2 {
         font-size: 28px;
     }
